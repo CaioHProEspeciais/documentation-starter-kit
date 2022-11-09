@@ -1,20 +1,20 @@
 export default {
   github: 'https://github.com/shuding/nextra',
   docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  titleSuffix: ' – SUPORTE',
   nextLinks: true,
   prevLinks: true,
   search: true,
   customSearch: null, // customizable, you can use algolia for example
   darkMode: true,
   footer: true,
-  footerText: `MIT ${new Date().getFullYear()} © Shu Ding.`,
+  footerText: `All rights to: ${new Date().getFullYear()} © Chiptronic.`,
   footerEditLink: `Edit this page on GitHub`,
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+        SUPORTE -Chiptronic
       </span>
     </>
   ),
