@@ -2,6 +2,14 @@ export default {
   github: 'https://github.com/shuding/nextra',
   docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
   titleSuffix: ' – Nextra',
+  nextLinks: true,
+  prevLinks: true,
+  search: true,
+  customSearch: null, // customizable, you can use algolia for example
+  darkMode: true,
+  footer: true,
+  footerText: `MIT ${new Date().getFullYear()} © Shu Ding.`,
+  footerEditLink: `Edit this page on GitHub`,
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
